@@ -1,6 +1,10 @@
 /** @type {import('prettier').Config} */
 module.exports = {
-  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-astro'],
+  plugins: [
+    'prettier-plugin-packagejson',
+    'prettier-plugin-astro',
+    'prettier-plugin-tailwindcss',
+  ],
   singleQuote: true,
   overrides: [
     {
