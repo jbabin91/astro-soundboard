@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "continue": true,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "^/_astro/(.*)$"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "dest": "render",
+      "src": "/.*"
+    }
+  ],
+  "version": 3
+}
