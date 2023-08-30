@@ -1,0 +1,9 @@
+---
+import { NewBoardForm } from './_components/NewBoardForm';
+import MainLayout from '@/layouts/MainLayout.astro';
+---
+
+<MainLayout>
+  <h1>New Board</h1>
+  <NewBoardForm client:load />
+</MainLayout>
