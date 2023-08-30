@@ -14,7 +14,7 @@
   "dependencies": {
     "@astrojs/react": "3.0.0",
     "@astrojs/tailwind": "5.0.0",
-    "@astrojs/vercel": "4.0.0",
+    "@astrojs/vercel": "^4.0.0",
     "@radix-ui/react-label": "^2.0.2",
     "astro": "3.0.2",
     "class-variance-authority": "^0.7.0",
